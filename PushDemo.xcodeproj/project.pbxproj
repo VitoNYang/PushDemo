@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F46F08D2398F8D400CDCC64 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F08C2398F8D400CDCC64 /* README.md */; };
 		3F7B4312239611E8004E0CDB /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B4311239611E8004E0CDB /* Util.swift */; };
 		3F7B431623965793004E0CDB /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7B431523965793004E0CDB /* ExternalAccessory.framework */; };
 		3FD3FFAE23950643003B315F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD3FFAD23950643003B315F /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F46F08C2398F8D400CDCC64 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F7B4311239611E8004E0CDB /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		3F7B43132396577A004E0CDB /* PushDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushDemo.entitlements; sourceTree = "<group>"; };
 		3F7B431523965793004E0CDB /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
@@ -54,6 +56,7 @@
 		3FD3FFA123950643003B315F = {
 			isa = PBXGroup;
 			children = (
+				3F46F08C2398F8D400CDCC64 /* README.md */,
 				3FD3FFAC23950643003B315F /* PushDemo */,
 				3FD3FFAB23950643003B315F /* Products */,
 				3F7B431423965793004E0CDB /* Frameworks */,
@@ -144,6 +147,7 @@
 			files = (
 				3FD3FFBA23950646003B315F /* LaunchScreen.storyboard in Resources */,
 				3FD3FFB723950646003B315F /* Assets.xcassets in Resources */,
+				3F46F08D2398F8D400CDCC64 /* README.md in Resources */,
 				3FD3FFB523950643003B315F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
