@@ -4,14 +4,14 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: macOS-latest
     strategy:
         matrix:
-          destination: ['platform=iOS Simulator,OS=12.2,name=iPhone X', 'platform=tvOS Simulator,OS=12.2,name=Apple TV 4K']
+          destination: ['platform=iOS Simulator,OS=13.1,name=iPhone 11', 'platform=tvOS Simulator,OS=13.0,name=Apple TV 4K']
     steps:
-        - uses: actions/checkout@v1
-        - name: Build and test
+        - name: Check out
+          uses: actions/checkout@master
+        - name: Build
           run: |
             xcodebuild clean build -project PushDemo.xcodeproj -scheme PushDemo -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
             bash <(curl -s https://codecov.io/bash)
